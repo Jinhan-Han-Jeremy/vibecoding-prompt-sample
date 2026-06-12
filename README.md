@@ -1,5 +1,15 @@
 # Global Developer System Prompt v4 — 모듈라이징 종합 분석
 
+## 0. 글로벌 프롬프트 구성 및 사용법
+
+- ** 간단 글로벌 프롬프트 모든 엔지니어의 global rule로 활용 가능 ** 
+https://github.com/Jinhan-Han-Jeremy/vibecoding-prompt-sample/blob/main/system-prompt/universal-developer-prompt.md?plain=1
+
+- ** m0 ~ m6 다각환된 rule로 활용 가능**
+- m0를 기반으로 특정 position에 맞게 프롬프트를 유기적으로 활용 가능
+- ** 주의 : ** 개발할려는 목표를 잘못명시할 경우, ai가 오버엔지니어링 발생 가능성 존재, 목적에 맞지 않는 구성으로 개발 가능성 존재  
+https://github.com/Jinhan-Han-Jeremy/vibecoding-prompt-sample/blob/main/system-prompt/universal-developer-prompt.md?plain=1
+
 ---
 
 ## 1. 프롬프트 구조 진단
