@@ -8,7 +8,7 @@ https://github.com/Jinhan-Han-Jeremy/vibecoding-prompt-sample/blob/main/system-p
 - **m0 ~ m6 다각환된 rule로 활용 가능**
 - m0를 기반으로 특정 position에 맞게 프롬프트를 유기적으로 활용 가능
 - **주의 :** 개발할려는 목표를 잘못명시할 경우, ai가 오버엔지니어링 발생 가능성 존재, 목적에 맞지 않는 구성으로 개발 가능성 존재  
-https://github.com/Jinhan-Han-Jeremy/vibecoding-prompt-sample/blob/main/system-prompt/universal-developer-prompt.md?plain=1
+https://github.com/Jinhan-Han-Jeremy/vibecoding-prompt-sample/blob/main/system-prompt/universal-developer-prompt.md?plain=1](https://github.com/Jinhan-Han-Jeremy/vibecoding-prompt-sample/blob/main/system-prompt/m0-core-identity.md
 
 ---
 
