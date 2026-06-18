@@ -1,0 +1,104 @@
+# ================================
+# FastAPI Core
+# ================================
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+starlette==0.37.2
+
+# ================================
+# security & 인증 (JWT / OAuth2)
+# ================================
+python-jose[cryptography]==3.3.0     # JWT 인코딩/디코딩
+passlib[bcrypt]==1.7.4               # 비밀번호 해싱
+email-validator==2.1.1               # 이메일 검증
+password-validator==1.0              # 패스워드 강도 검사
+authlib==1.3.0                       # OAuth2 / 소셜 로그인 지원
+
+# ================================
+# env 환경 설정
+# ================================
+python-dotenv==1.0.1                 # .env 로딩
+
+# ================================
+# async DB / ORM / 마이그레이션
+# ================================
+databases[postgresql,mysql]==0.9.0
+asyncpg==0.29.0
+aiomysql==0.2.0
+aiosqlite==0.19.0
+SQLAlchemy==2.0.30
+alembic==1.13.1
+psycopg2-binary==2.9.9
+pymysql==1.1.0
+
+# ================================
+# data 처리
+# ================================
+pandas==2.2.2
+numpy==1.26.4
+
+# ================================
+# Background 작업
+# ================================
+celery==5.3.6
+redis==5.0.3
+
+# ================================
+# 파일 업로드 & 이미지 처리
+# ================================
+python-multipart==0.0.9
+pillow==10.3.0
+
+# ================================
+# 외부 통신 및 파싱 (External API & Parsing)
+# ================================
+reader==3.13.0                         # RSS/Atom 웹 피드 파싱 및 오프라인 구독 관리
+# feedparser==6.0.10                   # (참고용) reader가 내부적으로 의존하거나 대안으로 쓰이는 피드 파서
+beautifulsoup4==4.12.3               # 웹 크롤링/HTML 파싱
+
+# ================================
+# scheduler (단일 서버용)
+# ================================
+apscheduler==3.10.4
+
+# ================================
+# monitoring / 분산 트레이싱
+# ================================
+prometheus-fastapi-instrumentator==6.1.0
+opentelemetry-sdk==1.25.0
+sentry-sdk==2.0.1
+
+# ================================
+# logging 및 템플릿
+# ================================
+loguru==0.7.2
+rich==13.7.1
+pendulum==3.0.0
+jinja2==3.1.3
+
+# ================================
+# test & 개발 도구
+# ================================
+pydantic-settings==2.2.1
+pytest==8.2.0
+pytest-asyncio==0.23.5
+httpx==0.25.2
+mypy==1.10.0
+black==24.4.2
+isort==5.13.2
+ruff==0.4.4
+
+# ================================
+# CLI 및 문서 자동화
+# ================================
+fastapi-cli==0.0.3
+
+# ================================
+# ERD 및 아키텍처 다이어그램 (문서화 도구)
+# ================================
+# [설치 유의사항] 아래 도구들은 로컬 시스템에 Graphviz(https://graphviz.org/)가 사전 설치되어 있어야 정상 동작합니다.
+# - Windows: winget install graphviz 또는 choco install graphviz
+# - Ubuntu/Debian: sudo apt-get install graphviz
+# - macOS: brew install graphviz
+eralchemy2==1.4.1                      # SQLAlchemy ORM 모델로부터 ERD(Entity Relationship Diagram) 생성
+diagrams==0.23.4                       # Python 코드를 활용한 클라우드 및 시스템 아키텍처 다이어그램 생성
